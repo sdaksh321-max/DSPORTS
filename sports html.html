@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSPORTS | The World of Sports</title>
+    <link rel="stylesheet" href="sports.css">
+    <script src="./sports.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">D<span>SPORTS</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#matches">Matches</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO DSPORTS</p>
+            <h1>LIVE THE GAME.<br><span>FEEL THE PASSION.</span></h1>
+            <p>
+                Your ultimate destination for sports news,
+                match updates, tournaments and unforgettable moments.
+            </p>
+            <a href="#sports" class="btn">EXPLORE SPORTS</a>
+        </div>
+    </section>
+
+    <!-- Sports Categories -->
+    <section class="section" id="sports">
+        <div class="section-heading">
+            <p>DISCOVER YOUR GAME</p>
+            <h2>POPULAR SPORTS</h2>
+        </div>
+
+        <div class="sports-grid">
+            <div class="sport-card">
+                <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600"
+                     alt="Football">
+                <div class="card-content">
+                    <h3>Football</h3>
+                    <p>Experience the beautiful game.</p>
+                </div>
+            </div>
+
+            <div class="sport-card">
+                <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=600"
+                     alt="Cricket">
+                <div class="card-content">
+                    <h3>Cricket</h3>
+                    <p>Every ball creates history.</p>
+                </div>
+            </div>
+
+            <div class="sport-card">
+                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600"
+                     alt="Basketball">
+                <div class="card-content">
+                    <h3>Basketball</h3>
+                    <p>Reach beyond your limits.</p>
+                </div>
+            </div>
+
+            <div class="sport-card">
+                <img src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=600"
+                     alt="Tennis">
+                <div class="card-content">
+                    <h3>Tennis</h3>
+                    <p>Power, precision and passion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Match Section -->
+    <section class="section matches" id="matches">
+        <div class="section-heading">
+            <p>DON'T MISS THE ACTION</p>
+            <h2>FEATURED MATCHES</h2>
+        </div>
+
+        <div class="match-grid">
+            <div class="match-card">
+                <span class="match-status">UPCOMING</span>
+                <p class="league">FOOTBALL • FRIENDLY</p>
+                <div class="teams">
+                    <h3>TEAM A</h3>
+                    <span>VS</span>
+                    <h3>TEAM B</h3>
+                </div>
+                <p class="match-time">Match details coming soon</p>
+            </div>
+
+            <div class="match-card">
+                <span class="match-status">UPCOMING</span>
+                <p class="league">CRICKET • T20</p>
+                <div class="teams">
+                    <h3>TEAM X</h3>
+                    <span>VS</span>
+                    <h3>TEAM Y</h3>
+                </div>
+                <p class="match-time">Match details coming soon</p>
+            </div>
+        </div>
+        <p class="disclaimer">
+            Sample fixtures for website demonstration. Not live match data.
+        </p>
+    </section>
+
+    <!-- News Section -->
+    <section class="section" id="news">
+        <div class="section-heading">
+            <p>STAY UPDATED</p>
+            <h2>LATEST SPORTS NEWS</h2>
+        </div>
+
+        <div class="news-grid">
+            <article class="news-card">
+                <img src="https://images.unsplash.com/photo-1508098682722-e99c643e7f0b?w=600"
+                     alt="Football stadium">
+                <div class="news-content">
+                    <span>FOOTBALL</span>
+                    <h3>The excitement of international football</h3>
+                    <p>Explore the latest developments from the world of football.</p>
+                    <a href="#about">Read More →</a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600"
+                     alt="Cricket stadium">
+                <div class="news-content">
+                    <span>CRICKET</span>
+                    <h3>Cricket moments that inspire millions</h3>
+                    <p>Discover stories, performances and memorable moments.</p>
+                    <a href="#about">Read More →</a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?w=600"
+                     alt="Basketball">
+                <div class="news-content">
+                    <span>BASKETBALL</span>
+                    <h3>The game of speed and teamwork</h3>
+                    <p>Discover what's happening in the basketball world.</p>
+                    <a href="#about">Read More →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="about-content">
+            <p class="tagline">ABOUT DSPORTS</p>
+            <h2>ONE PLATFORM.<br><span>EVERY SPORT.</span></h2>
+            <p>
+                DSPORTS is a sports-focused platform designed to bring
+                fans closer to the games they love. Discover sports,
+                explore stories and celebrate the spirit of competition.
+            </p>
+            <a href="#home" class="btn">BACK TO TOP</a>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>NEVER MISS A MOMENT!</h2>
+        <p>Subscribe to our newsletter for sports updates.</p>
+
+        <form id="newsletterForm">
+            <input type="email" id="email"
+                   placeholder="Enter your email address" required>
+            <button type="submit">SUBSCRIBE</button>
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">D<span>SPORTS</span></a>
+        <p>Live the Game. Feel the Passion.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#sports">Sports</a>
+            <a href="#matches">Matches</a>
+            <a href="#news">News</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 DSPORTS. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
